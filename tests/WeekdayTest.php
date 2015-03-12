@@ -8,7 +8,7 @@
         {
             //Arrange
             $test_Weekday = new Date;
-            $input = "12/3/2015";
+            $input = "03-12-2015";
 
             //Act
             $result = $test_Weekday->checkWeekday($input);
