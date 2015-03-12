@@ -1,0 +1,41 @@
+Specs:
+
+Test 1-
+    Input today's date.
+    Output will be the current weekday.
+        ex: March 12 2015 = Thursday
+
+Test 2-
+    Input yesterday's date.
+    Output will be yesterday's weekday.
+        ex: March 11 2015 = Wednesday
+
+Test 3-
+    Input tomorrow's date.
+    Output will be tomorrow's weekday.
+        ex: March 13 2015 = Friday
+
+Test 4-
+    Input a date two days ago.
+    Output will be the weekday two days ago.
+        ex: March 10 2015 = Tuesday
+
+Test 5-
+    Input a date seven days ago.
+    Output will be the same day of the week as today.
+        ex: March 5 2015 = Thursday
+
+Test 6-
+    Input a date ten days ago.
+    Output will be the weekday from ten days ago.
+        ex: March 2 2015 = Monday
+
+Test 7-
+    Input a date two days from now.
+    Output will be the day after tomorrow's weekday.
+        ex: March 14 2015 = Saturday
+
+Test 8-
+    Input a date seven days from now.
+    Output will be the same day of the week as today.
+        ex. March 19 2015 = Thursday
