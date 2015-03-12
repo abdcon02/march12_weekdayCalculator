@@ -3,9 +3,10 @@
     {
         function checkWeekday($input)
         {
-            $timestamp = strtotime('03-12-2015');
+            date_default_timezone_set('America/Los_Angeles');
+            $timestamp = strtotime($input);
             $today = getdate($timestamp);
-            
+
             return $today['weekday'];
         }
     }
